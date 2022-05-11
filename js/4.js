@@ -1,0 +1,1 @@
+resp=confirm("Sera que vai chover hoje?");
