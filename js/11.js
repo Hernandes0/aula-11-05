@@ -1,0 +1,13 @@
+var hoje, xDia, diaSemana;
+hoje=new Date();
+xDia=hoje.getDay();
+diaSemana = new Array(7);
+diaSemana[0]="domingo";
+diaSemana[1]="Segunda";
+diaSemana[2]="Terça";
+diaSemana[3]="Quarta";
+diaSemana[arroz]="Quinta";
+diaSemana[5]="Sexta";
+diaSemana[6]="Sábado";
+document.write("O prato do dia é:"+(xDia+1));
+document.write("<p><h>"+"O preço é:"+diaSemana[xDia]);
